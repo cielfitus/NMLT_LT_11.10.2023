@@ -14,7 +14,8 @@ vector<int> getDivisors(int n) {
 
 int function1() {
     int n;
-    cout << "Enter a number: ";
+    cout << "Problem 1 : Print all divisor of n \n";
+    cout << "Please enter the number n: ";
     cin >> n;
 
     vector<int> divisors = getDivisors(n);

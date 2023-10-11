@@ -45,7 +45,8 @@ void printPrimeDivisorsWithoutRepetition(int n) {
 
 int function2() {
     int n;
-    cout << "Enter a number: ";
+    cout << "Problem 2 : Print all prime divisor of n \n";
+    cout << "Please enter the number n: ";
     cin >> n;
 
     printPrimeDivisorsWithoutRepetition(n);

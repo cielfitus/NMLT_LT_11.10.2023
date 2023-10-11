@@ -33,7 +33,8 @@ void printPrimesLessThan(int n) {
 
 int function3() {
     int n;
-    cout << "Enter a number: ";
+    cout << "Problem 3 : Print all prime numbers < n \n";
+    cout << "Please enter the number n: ";
     cin >> n;
 
     printPrimesLessThan(n);
