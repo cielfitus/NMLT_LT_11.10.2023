@@ -2,6 +2,8 @@
 #include "function1.h"
 #include "function2.h"
 #include "function3.h"
+#include "function4.h"
+#include "function5.h"
 
 void function1() {
     int n;
@@ -42,7 +44,35 @@ void function3() {
     cout << "Prime numbers less than " << n << " are: ";
     for (int divisor : divisors) {
         cout << divisor << " ";
-    } cout << "\n\n";
+    } 
+    cout << "\n\n";
+}
+
+void function4() {
+    int n;
+    cout << "Problem 4 : Print all symmetrical numbers < n \n";
+    cout << "Please enter the number n: ";
+    cin >> n;
+    cout << "Symmetrical numbers less than " << n << ": ";
+    for (int i = 0; i < n; i++) {
+        if (isSymmetrical(i)) {
+            cout << i << " ";
+        }
+    }
+    cout << "\n\n";
+}
+
+void function5() {
+    long long n, k;
+    again:
+    cout << "Problem 5 : Combination of n choose k \n";
+    cout << "Please enter the number n and k: ";
+    cin >> n >> k;
+    if (k > n) {
+        cout << "n >= k >= 0 \n";
+        goto again;
+    }
+    cout << "Combination of n choose k : C(n, k) = n! / [(n - k)! * k!] = " << combination(n, k) << "\n\n";
 }
 
 int main()
@@ -50,6 +80,8 @@ int main()
     function1();
     function2();
     function3();
+    function4();
+    function5();
     return 0;
 }
 

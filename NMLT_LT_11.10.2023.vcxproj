@@ -131,6 +131,8 @@
     <ClCompile Include="function1.cpp" />
     <ClCompile Include="function2.cpp" />
     <ClCompile Include="function3.cpp" />
+    <ClCompile Include="function4.cpp" />
+    <ClCompile Include="function5.cpp" />
     <ClCompile Include="MainPrg.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +140,8 @@
     <ClInclude Include="function1.h" />
     <ClInclude Include="function2.h" />
     <ClInclude Include="function3.h" />
+    <ClInclude Include="function4.h" />
+    <ClInclude Include="function5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
