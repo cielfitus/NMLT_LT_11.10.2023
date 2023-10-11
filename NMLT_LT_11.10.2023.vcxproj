@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CheckPrime.cpp" />
     <ClCompile Include="function1.cpp" />
     <ClCompile Include="function2.cpp" />
     <ClCompile Include="function3.cpp" />
     <ClCompile Include="MainPrg.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CheckPrime.h" />
     <ClInclude Include="function1.h" />
     <ClInclude Include="function2.h" />
     <ClInclude Include="function3.h" />
