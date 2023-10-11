@@ -3,10 +3,11 @@
 
 #include <iostream>
 #include <vector>
+#include <unordered_set>
 
 using namespace std;
 
-vector<int> getPrimeDivisors(int n);
+void printPrimeDivisorsWithoutRepetition(int n);
 int function2();
 
 #endif
