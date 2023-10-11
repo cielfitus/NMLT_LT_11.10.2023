@@ -24,12 +24,18 @@
     <ClCompile Include="function2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="function3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="function1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="function2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="function3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
