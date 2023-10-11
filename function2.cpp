@@ -50,6 +50,6 @@ int function2() {
     cin >> n;
 
     printPrimeDivisorsWithoutRepetition(n);
-
+    cout << endl;
     return 0;
 }

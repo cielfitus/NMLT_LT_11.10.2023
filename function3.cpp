@@ -38,6 +38,6 @@ int function3() {
     cin >> n;
 
     printPrimesLessThan(n);
-
+    cout << endl;
     return 0;
 }

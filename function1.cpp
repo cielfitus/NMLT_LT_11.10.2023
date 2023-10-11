@@ -25,6 +25,6 @@ int function1() {
         cout << divisor << " ";
     }
     cout << endl;
-
+    cout << endl;
     return 0;
 }
